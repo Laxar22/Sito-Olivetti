@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Olivetti</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #880606;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 70vh !important;
+    background: url(img/olivetti.jpg) repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    padding: 10px 40px;
+    border: 2px solid #880606;
+    color: #fff;
+    text-decoration: none;
+    background: #880606;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    background-size: contain;
+    padding: 10px;
+    background-color: #880606;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 9rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .5rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #880606;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #880606;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background-color: #171717;
+    background-attachment: fixed;
+    background-size: cover; 
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: url(img/olivetti.jpg) center;
+    background-attachment: fixed;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 100vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <nav class="navbar">
+            <a href="#storia">Storia</a>
+            <a href="#attualità">Attualità</a>
+            <a href="#conclusione">Conclusione</a>
+            <a href="#museo">Museo</a>
+            <a href="#fonti">Fonti</a>
+        </nav>
+    </div>
+
+    <!-- Storia -->
+    <header class="content header" id="storia">
+        <a class="title">Storia</a>
+        <p>
+            La Olivetti è stata fondata nel 1908 a Ivrea, in Piemonte, da Camillo Olivetti. 
+            L'azienda iniziò come produttrice di macchine per scrivere e si distinse per il design innovativo e 
+            la qualità dei suoi prodotti. Nel corso degli anni, la Olivetti ha ampliato la sua gamma di prodotti, 
+            includendo calcolatrici meccaniche e elettroniche.
+            Negli anni '50 entrò nel settore dei computer con l'introduzione del leggendario 
+            Olivetti Elea 9003, uno dei primi computer commerciali in Europa. Successivamente, l'azienda lanciò 
+            il P101, il primo computer personale italiano. La Olivetti divenne un importante attore nel mercato 
+            dei computer negli anni successivi.
+        </p>
+    </header>
+
+    <!-- Attualità -->
+    <section class="content price" id="attualità">
+        <article class="contain">
+            <h2 class="title">Attualità</h2>
+            <p>
+                La Olivetti è stata conosciuta non solo per le sue tecnologie avanzate, 
+                ma anche per il suo approccio innovativo al design. L'azienda ha collaborato con 
+                importanti architetti e designer, come Marcello Nizzoli e Ettore Sottsass, per creare 
+                prodotti che combinavano funzionalità ed estetica. La macchina per scrivere Olivetti Lettera 22 
+                e la calcolatrice Divisumma 24 sono esempi di design iconico associato alla Olivetti.
+            </p>
+        </article>
+    </section>
+
+    <!-- Conclusione -->
+    <section class="content contact" id="conclusione">
+        <h2 class="title">Conclusione</h2>
+        <p>
+            Nonostante le sfide affrontate, la Olivetti ha lasciato un'impronta
+             significativa nel mondo dell'informatica e del design. Il suo spirito innovativo e 
+             la sua eredità di eccellenza continuano ad ispirare l'industria tecnologica ancora oggi.
+             Nel corso degli anni '80 e '90, la Olivetti ha affrontato difficoltà finanziarie e problemi di 
+             gestione che hanno portato al suo declino. L'azienda è stata successivamente acquisita da diverse 
+             società e ha subito una serie di ristrutturazioni. Tuttavia, il marchio Olivetti è rimasto un simbolo 
+             di innovazione e design in campo tecnologico.
+        </p>
+    </section>
+
+    <!-- Museo -->
+    <section class="content about" id="museo">
+        <h2 class="title">Museo</h2>
+        <p>
+            Nel cuore di Ivrea, un Museo e un Laboratorio didattico si uniscono in uno spazio unico 
+            per raccontare l'affascinante storia industriale della Olivetti, coinvolgendo tutte le generazioni 
+            attraverso linguaggi diversi,
+            Il Museo che mostra tutti i progressi che ha fatto durante gli anni si trova qui:
+        </p>
+        <figure class="map">
+            <img src="img/m_olivetti.jpg" height="220px" width="100%" alt="m_olivetti">
+        </figure>
+        <a class="btn" href="https://www.bing.com/search?pglt=41&q=ivrea+museo+olivetti&cvid=30f481edc2b8455fbf36ffd3a1e16ce8&aqs=edge.1.69i57j0l2.5799j0j1&FORM=ANNTA1&PC=U531">Luogo</a>
+    </section>
+
+    <!-- Fonti -->
+    <section class="content sau" id="fonti">
+        <h2 class="title">Fonti</h2>
+        <p>
+            Le fonti da cui ho preso queste informazioni sono:
+        </p>
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-wikipedia-w"></i>
+                <h3>Wikipedia</h3>
+            </div>
+            <div class="box">
+                <i class="fab fa-google"></i>
+                <h3>Google</h3>
+            </div>
+            <div class="box">
+                <i class="fab fa-microsoft"></i>
+                <h3>Microsoft Bing</h3>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #c7d1d3;">
+          ©
+          <a class="text-dark" href="https://github.com/Laxar22" target="_blank">Lazaro Anthony</a>
+        </div>
+      </footer>
+</body>
+</html>
